@@ -1,0 +1,59 @@
+
+.faq{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.faq__container{
+    height: 256px;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: top 30px center;
+    border-radius: 6px;
+    box-shadow: 0 3px 15px rgb(0 0 0 / 15%);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-weight: 700;
+    margin-right: 35px;
+    min-height: 16rem;
+    justify-content: flex-end;
+    letter-spacing: 1px;
+    width: 347px;
+    line-height: 1.8rem;
+    padding: 30px;
+    cursor: pointer;
+}
+
+.faq__container:hover{
+    border: 0;
+    box-shadow: 0 3px 20px rgb(0 0 0 / 20%); 
+}
+.faq__container h3{
+    font-size: 18px;
+    color: #666;
+}
+.faq--description{
+    font-size: 14px;
+    color: #9a9a9a;
+    font-weight: bold;
+}
+
+.faq--articles {
+    color: #4FD053;
+}
+
+.faq__container__0{
+    background-image: url('https://s3-eu-west-1.amazonaws.com/lolamarket.statics.prod/lola-help/icAboutLm.svg');
+}
+.faq__container__1{
+    background-image: url('https://s3-eu-west-1.amazonaws.com/lolamarket.statics.prod/lola-help/icShoppingCart.svg');
+}
+
+.faq__container__2{
+    background-image: url('https://s3-eu-west-1.amazonaws.com/lolamarket.statics.prod/lola-help/icThumbUp.svg');
+}
+
+
